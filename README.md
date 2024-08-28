@@ -31,3 +31,23 @@ python app.py
     1. Notebook expriment
     2. we will setup - Logging , Exceptions , utilis 
     3. project workflow
+
+
+### Workflow
+    1. update config.yaml
+    2. update schema.yaml
+    3. update params.yaml
+    4. update the entity 
+    5. update the configuration manager in src config
+    6. update the components
+    7. update the pipeline
+    8. update the main.py
+    9. update the app.py
+
+
+
+### Deep dive
+    1. Download data from github
+    2. Data Validation
+    3. Data Transform
+
