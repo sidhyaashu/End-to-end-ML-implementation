@@ -1,0 +1,4 @@
+1. log transformer
+2. elasticnet
+3. regularzation
+4. evaluation metric

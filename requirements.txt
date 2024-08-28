@@ -1,5 +1,6 @@
 pandas 
 notebook
+seaborn
 numpy
 scikit-learn
 matplotlib
