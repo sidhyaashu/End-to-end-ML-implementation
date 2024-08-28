@@ -44,7 +44,9 @@ python app.py
     8. update the main.py
     9. update the app.py
 
-
+### Steps 
+    1. Data ingestion
+    2. Data Validation
 
 ### Deep dive
     1. Download data from github
