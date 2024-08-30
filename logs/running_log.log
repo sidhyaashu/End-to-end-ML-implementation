@@ -533,3 +533,87 @@ x==========x]
 [2024-08-30 17:37:09,874: INFO: main: >>>>>> Stage Model trainer Statge Compelete <<<<<<<
 
 x==========x]
+[2024-08-30 17:47:54,707: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-30 17:47:54,712: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-30 17:47:54,722: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-08-30 17:47:54,725: INFO: common: created directory at: artifacts]
+[2024-08-30 17:47:54,728: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-08-30 17:47:55,227: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-08-30 17:59:07,555: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-08-30 17:59:07,571: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-30 17:59:07,574: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-30 17:59:07,586: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-08-30 17:59:07,617: INFO: common: created directory at: artifacts]
+[2024-08-30 17:59:07,617: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-08-30 17:59:09,308: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 21984
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "85a38be3d4c70e3b6dc97fc47873623da88c9b850e1526aeb57ff236bdd2815c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: EDE6:577AC:28B14:2FA03:66D1ABF4
+Accept-Ranges: bytes
+Date: Fri, 30 Aug 2024 12:28:49 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21740-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1725020929.210151,VS0,VE292
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 2c193f3d0d65ce4fb963d08e224fc6d753e75c6d
+Expires: Fri, 30 Aug 2024 12:33:49 GMT
+Source-Age: 0
+
+]
+[2024-08-30 17:59:09,357: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+]
+[2024-08-30 17:59:09,359: INFO: main: >>>>>>>> Stage Data Validation Statge Start <<<<<<<<<<]
+[2024-08-30 17:59:09,372: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-30 17:59:09,376: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-30 17:59:09,380: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-08-30 17:59:09,380: INFO: common: created directory at: artifacts]
+[2024-08-30 17:59:09,380: INFO: common: created directory at: artifacts/data_validation]
+[2024-08-30 17:59:09,427: INFO: main: >>>>>> Stage Data Validation Statge Compelete <<<<<<<
+
+x==========x
+]
+[2024-08-30 17:59:09,443: INFO: main: >>>>>>>> Stage Data Transformation Statge Start <<<<<<<<<<]
+[2024-08-30 17:59:09,462: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-30 17:59:09,462: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-30 17:59:09,473: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-08-30 17:59:09,475: INFO: common: created directory at: artifacts]
+[2024-08-30 17:59:09,476: INFO: common: created directory at: artifacts/data_transformation]
+[2024-08-30 17:59:09,612: INFO: data_transformation: Splited data into training and test sets]
+[2024-08-30 17:59:09,612: INFO: data_transformation: (857, 13)]
+[2024-08-30 17:59:09,612: INFO: data_transformation: (286, 13)]
+[2024-08-30 17:59:09,612: INFO: main: >>>>>> Stage Data Transformation Statge Compelete <<<<<<<
+
+x==========x]
+[2024-08-30 17:59:09,612: INFO: main: >>>>>>>> Stage Model trainer Statge Start <<<<<<<<<<]
+[2024-08-30 17:59:09,623: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-30 17:59:09,626: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-30 17:59:09,633: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-08-30 17:59:09,634: INFO: common: created directory at: artifacts]
+[2024-08-30 17:59:09,634: INFO: common: created directory at: artifacts/model_trainer]
+[2024-08-30 17:59:09,673: INFO: main: >>>>>> Stage Model trainer Statge Compelete <<<<<<<
+
+x==========x]
+[2024-08-30 17:59:09,684: INFO: main: >>>>>>>> Stage Model evaluation Statge Start <<<<<<<<<<]
+[2024-08-30 17:59:09,693: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-30 17:59:09,695: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-30 17:59:09,696: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-08-30 17:59:09,696: INFO: common: created directory at: artifacts]
+[2024-08-30 17:59:09,696: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-08-30 17:59:09,739: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-08-30 17:59:09,739: INFO: main: >>>>>> Stage Model evaluation Statge Compelete <<<<<<<
+
+x==========x]
