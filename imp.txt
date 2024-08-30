@@ -4,3 +4,14 @@
 4. evaluation metric
 5. annotation
 6. python box
+7. EDA,PCA,Feature eng,Scalling
+
+
+
+
+day - 4:
+    1. Model trainer component
+    2. model evaluation component
+    3. prediction pipeline
+    4. user app -> flusk
+    
